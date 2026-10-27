@@ -1,0 +1,281 @@
+﻿
+===== screens =====
+OK: {
+ "faculty": {
+  "heading": "Faculty registry",
+  "tableRows": 11,
+  "overflow": false
+ },
+ "courses": {
+  "heading": "Course registry",
+  "tableRows": 13,
+  "overflow": false
+ },
+ "rooms": {
+  "heading": "Rooms and laboratories",
+  "tableRows": 7,
+  "overflow": false
+ },
+ "reports": {
+  "heading": "Reports",
+  "tableRows": 6,
+  "overflow": false
+ },
+ "settings": {
+  "heading": "Settings",
+  "tableRows": 0,
+  "overflow": false
+ },
+ "list": {
+  "days": 5,
+  "rows": 25,
+  "gridVisible": false
+ },
+ "print": {
+  "printHead": "flex",
+  "sidebar": "none",
+  "toolbar": "none"
+ },
+ "reduced": {
+  "canvas": true,
+  "state": "ready"
+ }
+}
+
+===== hero =====
+OK: {
+ "before": {
+  "dpr": 1,
+  "small": false,
+  "fallback": false
+ },
+ "canvasInfo": {
+  "w": 530,
+  "h": 226,
+  "bufferW": 530,
+  "bufferH": 226,
+  "ctxLost": false,
+  "hostState": "ready"
+ },
+ "hover": {
+  "at": [
+   45,
+   51
+  ],
+  "text": "HS102 Thursday · 16:15 – 17:15 Technical Communication Farah Khan · Room B-204"
+ },
+ "idleReadout": "HS102 · Thursday, 16:15 – 17:15 Technical Communication · Farah Khan · Room B-204",
+ "consoleErrors": []
+}
+
+===== layout =====
+OK: {
+ "desktop": {
+  "heroBottom": 438,
+  "statsTop": 454,
+  "pageScroll": false,
+  "heroH": 352
+ },
+ "laptop": {
+  "heroBottom": 438,
+  "overflow": false
+ },
+ "mobile": {
+  "overflow": false,
+  "canvas": false,
+  "fallback": true
+ },
+ "timetable": {
+  "selected": true,
+  "detail": "Database Management Systems",
+  "gridCols": "1160px"
+ }
+}
+
+===== overflow =====
+OK: {
+ "scrollW": 390,
+ "inner": 390,
+ "wide": [
+  {
+   "tag": "aside",
+   "cls": "sidebar",
+   "left": -232,
+   "right": 0,
+   "w": 232
+  },
+  {
+   "tag": "div",
+   "cls": "brand",
+   "left": -232,
+   "right": 0,
+   "w": 232
+  },
+  {
+   "tag": "span",
+   "cls": "brand-mark",
+   "left": -216,
+   "right": -184,
+   "w": 32
+  },
+  {
+   "tag": "span",
+   "cls": "brand-text",
+   "left": -174,
+   "right": -71,
+   "w": 103
+  },
+  {
+   "tag": "strong",
+   "cls": "",
+   "left": -174,
+   "right": -71,
+   "w": 103
+  },
+  {
+   "tag": "small",
+   "cls": "",
+   "left": -174,
+   "right": -71,
+   "w": 103
+  },
+  {
+   "tag": "button",
+   "cls": "icon-btn sidebar-close",
+   "left": -44,
+   "right": -16,
+   "w": 28
+  },
+  {
+   "tag": "svg",
+   "cls": "[object SVGAnimatedString]",
+   "left": -38,
+   "right": -22,
+   "w": 16
+  },
+  {
+   "tag": "path",
+   "cls": "[object SVGAnimatedString]",
+   "left": -34,
+   "right": -26,
+   "w": 8
+  },
+  {
+   "tag": "nav",
+   "cls": "nav",
+   "left": -232,
+   "right": 0,
+   "w": 232
+  },
+  {
+   "tag": "div",
+   "cls": "nav-group",
+   "left": -224,
+   "right": -8,
+   "w": 216
+  },
+  {
+   "tag": "p",
+   "cls": "nav-label",
+   "left": -224,
+   "right": -8,
+   "w": 216
+  },
+  {
+   "tag": "button",
+   "cls": "nav-item active",
+   "left": -224,
+   "right": -8,
+   "w": 216
+  },
+  {
+   "tag": "svg",
+   "cls": "[object SVGAnimatedString]",
+   "left": -214,
+   "right": -198,
+   "w": 16
+  }
+ ]
+}
+
+===== workflow =====
+OK: {
+ "out": {
+  "create": {
+   "before": 46,
+   "after": 47,
+   "delta": 1,
+   "toast": "IT301 scheduled for Thursday, 11:15 – 12:15."
+  },
+  "conflict": {
+   "detected": true,
+   "messages": [
+    "Ms. Sneha Kamath is already teaching IT301 in B-204 (CSE-2B).",
+    "Room B-204 is occupied by IT301 for CSE-2B.",
+    "Section CSE-2B already has IT301 scheduled in this period."
+   ]
+  },
+  "crossPage": {
+   "detailTitle": "Web Technologies",
+   "selected": "IT301 Web Technologies Sneha Kamath B-204"
+  },
+  "removeUndo": {
+   "afterDelete": 46,
+   "afterUndo": 47
+  },
+  "persistence": {
+   "initial": 46,
+   "reloaded": {
+    "slots": 47,
+    "log": 7
+   }
+  }
+ },
+ "formSnapshot": {
+  "dayOptions": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu",
+   "Fri"
+  ],
+  "periodOptions": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "note": "Scheduling rules Faculty on leave, occupied rooms and duplicate section periods are reported below."
+ }
+}
+
+===== data =====
+OK: {
+ "slots": 46,
+ "clashes": [],
+ "onLeaveSlots": [
+  "TueP2",
+  "TueP6",
+  "WedP6",
+  "FriP5",
+  "WedP5",
+  "FriP2"
+ ],
+ "cse2a": 14,
+ "cse2b": 25,
+ "it3a": 1,
+ "audit": {
+  "badge": "6",
+  "rows": [
+   "CS305 · CSE-2B Tuesday 10:00 – 11:00 Dr. Meera Nair is marked on leave. Assign a substitute before scheduling. Review",
+   "CS305 · CSE-2B Tuesday 15:00 – 16:00 Dr. Meera Nair is marked on leave. Assign a substitute before scheduling. Review",
+   "CS305 · CSE-2B Wednesday 15:00 – 16:00 Dr. Meera Nair is marked on leave. Assign a substitute before scheduling. Review",
+   "CS305 · CSE-2B Friday 14:00 – 15:00 Dr. Meera Nair is marked on leave. Assign a substitute before scheduling. Review",
+   "CS305 · CSE-2A Wednesday 14:00 – 15:00 Dr. Meera Nair is marked on leave. Assign a substitute before scheduling. Review",
+   "CS305 · CSE-2A Friday 10:00 – 11:00 Dr. Meera Nair is marked on leave. Assign a substitute before scheduling. Review"
+  ]
+ }
+}
